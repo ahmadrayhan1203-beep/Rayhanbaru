@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — PKL Rayhan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">PKL Ahmad Rayhan</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card fade-in">
+      <h2>Kontak</h2>
+      <p>Ingin bertanya atau bekerja sama? Hubungi melalui:</p>
+      <ul>
+        <li>Email: <a href="mailto:rayhan@example.com">rayhan@example.com</a></li>
+        <li>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a> (contoh)</li>
+      </ul>
+
+      <h3>Kirim Pesan</h3>
+      <p>Formulir di bawah ini membuka email (mailto). Lengkapi lalu kirim melalui aplikasi email Anda.</p>
+      <form id="contactForm" action="mailto:rayhan@example.com" method="GET" enctype="text/plain" onsubmit="return prepareMail(event)">
+        <label>Nama<br><input type="text" name="subject" placeholder="Nama Anda" required></label><br><br>
+        <label>Pesan<br><textarea name="body" rows="6" placeholder="Tulis pesan..." required></textarea></label><br><br>
+        <button class="btn" type="submit">Kirim Email</button>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <p>© PKL Ahmad Rayhan — 2025</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
